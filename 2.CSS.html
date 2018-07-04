@@ -9,30 +9,57 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'UA-121834443-1');
+    gtag('config', 'UA-1218344  43-1');
     </script>
+    <style>
+      a {
+        color:black;
+        text-decoration: none
+      }
+      h1 {
+        font-size:50px;
+        text-align:center;
+        border-bottom: 1px solid gray;
+        margin:0px;
+        padding:20px;
+      }
+      h2 {
+        margin:0px;
+        padding:20px;
+      }
+      ol {
+        border-right:1px solid gray;
+        width:100px;
+        margin:0px;
+        padding:20px;
+        padding-left:25px;
+      }
+      #grid {
+        display:grid;
+        grid-template-columns:175px 1fr;
+      }
+    </style>
   </head>
 
   <body>
     <h1><a href="index.html">WEB</a></h1>
-    <p>
+    <div id="grid">
       <ol>
         <li><a href="1.HTML.html">HTML</a></li>
-        <li><a href="2.CSS.html">CSS</a></li>
+        <li><a href="2.CSS.html" style="color:blue;text-decoration:underline">CSS</a></li>
         <li><a href="3.JavaScript.html">JavaScript</a></li>
       </ol>
-    </p>
-
-    <h2 style="margin-top:45px">CSS</h2>
-    <p>
-      종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)는 마크업
-      언어가 실제 표시되는 방법을 기술하는 언어로, HTML과 XHTML에 주로 쓰이며,
-      XML에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다.
-      마크업 언어가 웹사이트의 몸체를 담당한다면 CSS는 옷과 액세서리 같은 꾸미는 역할을
-      담당한다고 할 수 있다. 즉, HTML 구조는 그대로 두고 CSS 파일만 변경해도 전혀 다른
-      웹사이트처럼 꾸밀 수 있다.
-    </p>
-    <img src="CSS.png" width="50%">
+      <div>
+        <h2>CSS</h2>
+        종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)는 마크업
+        언어가 실제 표시되는 방법을 기술하는 언어로, HTML과 XHTML에 주로 쓰이며,
+        XML에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다.
+        마크업 언어가 웹사이트의 몸체를 담당한다면 CSS는 옷과 액세서리 같은 꾸미는 역할을
+        담당한다고 할 수 있다. 즉, HTML 구조는 그대로 두고 CSS 파일만 변경해도 전혀 다른
+        웹사이트처럼 꾸밀 수 있다.
+        <img src="CSS.png" width="50%">
+      </div>
+    </div>
     <p>
       <div id="disqus_thread"></div>
       <script>
@@ -55,6 +82,7 @@
       </script>
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </p>
+
     <p>
       <!--Start of Tawk.to Script-->
       <script type="text/javascript">
